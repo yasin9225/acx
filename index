@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>ACX Token – Official Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+:root {
+  --red: #e53935;
+  --blue: #1e3c72;
+  --light: #f7f9fc;
+  --text: #1a1a1a;
+  --muted: #666;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #ffffff, #f1f4ff);
+  color: var(--text);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 30px 60px;
+  border-bottom: 3px solid var(--blue);
+}
+
+header img {
+  height: 60px;
+}
+
+header h1 {
+  font-size: 36px;
+  color: var(--blue);
+}
+
+section {
+  padding: 60px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.card h2 {
+  color: var(--red);
+  margin-bottom: 14px;
+}
+
+.card p {
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 15px;
+}
+
+.info:last-child {
+  border-bottom: none;
+}
+
+.links a {
+  display: block;
+  margin-bottom: 10px;
+  color: var(--blue);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  background: linear-gradient(135deg, var(--red), var(--blue));
+  color: white;
+  padding: 25px 60px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  header, section, footer {
+    padding: 30px 20px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <img src="acx-logo.png" alt="ACX Logo">
+  <h1>ACX Utility Token</h1>
+</header>
+
+<section>
+
+<div class="card">
+  <h2>About ACX</h2>
+  <p>
+    ACX is a utility-based digital token designed to provide access to
+    platforms, digital tools, and services within the Art City ecosystem.
+    The token is created for functional usage, verification, and service enablement
+    rather than speculative trading.
+  </p>
+</div>
+
+<div class="card">
+  <h2>Blockchain Information</h2>
+
+  <div class="info">
+    <span>Token Name</span>
+    <span>ACX</span>
+  </div>
+
+  <div class="info">
+    <span>Symbol</span>
+    <span>ACX</span>
+  </div>
+
+  <div class="info">
+    <span>Network</span>
+    <span>BNB Smart Chain (BEP-20)</span>
+  </div>
+
+  <div class="info">
+    <span>Main Smart Contract</span>
+    <span style="word-break:break-all;">
+      0x0256106b855667bBB868979A2058d42C38892Ca9
+    </span>
+  </div>
+
+  <div class="info">
+    <span>Explorer</span>
+    <span>
+      <a href="https://bscscan.com/token/0x0256106b855667bBB868979A2058d42C38892Ca9" target="_blank">
+        View on BscScan
+      </a>
+    </span>
+  </div>
+</div>
+
+<div class="card">
+  <h2>Official Pages</h2>
+  <div class="links">
+    <a href="https://artcity.group" target="_blank">🌐 Website – artcity.group</a>
+    <a href="https://www.facebook.com/profile.php?id=61585712385562" target="_blank">📘 Facebook</a>
+    <a href="https://www.instagram.com/artcityglobal" target="_blank">📸 Instagram</a>
+    <a href="https://www.youtube.com/@artcitychannel" target="_blank">▶️ YouTube</a>
+    <a href="https://x.com/artcityglobal" target="_blank">❌ X (Twitter)</a>
+  </div>
+</div>
+
+</section>
+
+<footer>
+  <div>© 2026 ACX Token</div>
+  <div>Utility token for digital access</div>
+</footer>
+
+</body>
+</html>
